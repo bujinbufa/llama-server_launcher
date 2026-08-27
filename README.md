@@ -1,6 +1,9 @@
 # llama-参数生成启动器
 基于自己想法，ai编写
+
 即下即用。
+
+运行消耗的内存我自己的机器配置实测出30MB-100M内
 
 
 <img width="600" height="857" alt="QQ20260827-124830" src="https://github.com/user-attachments/assets/dc467829-4218-4fda-ae76-03391e6a9311" />
