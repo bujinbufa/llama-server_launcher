@@ -1,0 +1,18 @@
+<Window x:Class="LlamaManager.Views.GenerateConfigWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:LlamaManager.Views.Controls"
+        Title="生成模型配置"
+        Width="1100"
+        Height="700"
+        WindowStartupLocation="CenterOwner"
+        FontSize="14">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <controls:ConfigForm x:Name="ConfigForm"/>
+        <Button Grid.Row="1" Content="生成并保存 .ini" Height="35" Margin="0,10,0,0" Click="GenerateConfig_Click"/>
+    </Grid>
+</Window>
